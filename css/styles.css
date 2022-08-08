@@ -105,6 +105,7 @@ body {
 .header-logo-link:focus,
 .header-logo-link:active {
   color: var(--accent-color);
+  background-color: ;
 }
 
 .header-link {
