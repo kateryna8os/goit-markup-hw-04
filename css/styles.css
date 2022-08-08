@@ -105,7 +105,6 @@ body {
 .header-logo-link:focus,
 .header-logo-link:active {
   color: var(--accent-color);
-  background-color: ;
 }
 
 .header-link {
@@ -137,6 +136,15 @@ body {
 
   text-align: center;
   background-color: var(--background-color);
+
+  background-image: linear-gradient(
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+    ),
+    url("../images/hero.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
 .hero-title {
@@ -270,6 +278,10 @@ body {
 .team-jpg {
   padding-top: 30px;
   padding-bottom: 30px;
+
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
 }
 
 .team-player-title {
@@ -346,6 +358,11 @@ body {
   margin-bottom: 30px;
 
   width: 370px;
+}
+
+.project-item-shadow {
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
 .project-item:nth-child(3n) {
