@@ -298,7 +298,7 @@ body {
 
 .team-text {
   margin-top: 0;
-  margin-bottom: 30px;
+  margin-bottom: 16px;
 
   font-size: 16px;
   line-height: 1.18;
@@ -306,6 +306,23 @@ body {
   letter-spacing: 0.03em;
 
   text-align: center;
+}
+
+.social-network {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.social-network-link {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background-color: aqua;
+  display: block;
+}
+.social-network-icon {
+  background-color: ;
 }
 
 .filter-list {
