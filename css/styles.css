@@ -7,12 +7,13 @@
   --background-color: #2f303a;
   --studio: #000000;
   --section-bgc: #f5f4fa;
+  --bg-icon: #afb1b8;
 }
 
 body {
   font-family: "Roboto", sans-serif;
   color: var(--main-title-color);
-} 
+}
 
 .list {
   padding: 0;
@@ -319,10 +320,20 @@ body {
   height: 44px;
   border-radius: 50%;
   background-color: aqua;
-  display: block;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
+
+.social-network-link:hover,
+.social-network-link:focus,
+.social-network-link:active {
+  fill:var(--bg-icon)
+  background-color: var(--accent-color);
+}
+
 .social-network-icon {
-  fill: red;
+  fill: var(--color-white);
 }
 
 .filter-list {
