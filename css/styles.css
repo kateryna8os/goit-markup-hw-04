@@ -353,6 +353,78 @@ body {
   background-color: var(--accent-color);
 }
 
+.client-title {
+  margin-top: 0;
+  margin-bottom: 50px;
+
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: var(--main-title-color);
+}
+.client-list {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.client-item:hover,
+.client-item:focus,
+.client-item:active {
+  border-color: var(--accent-color);
+}
+
+.client-icon {
+  fill: var(--bg-icon);
+}
+
+.client-item:hover .client-icon,
+.client-item:focus .client-icon,
+.client-item:active .client-icon {
+  fill: var(--accent-color);
+}
+
+.client-item {
+  width: 170px;
+  height: 92px;
+  border: 1px solid var(--bg-icon);
+  border-radius: 4px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  cursor: pointer;
+}
+
+employment-title {
+  margin-top: 0;
+  margin-bottom: 50px;
+
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  color: var(--main-title-color);
+  letter-spacing: 0.03em;
+
+  text-align: center;
+}
+
+employment-list ull {
+  display: flex;
+}
+
+employment-item lii {
+  width: 370px;
+}
+
+employment-list .employment-item + .employment-item {
+  margin-left: 30px;
+}
+
 .filter-list {
   margin-bottom: 50px;
 
