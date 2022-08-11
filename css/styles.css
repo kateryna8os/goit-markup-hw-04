@@ -110,9 +110,9 @@ body {
   color: var(--accent-color);
 }
 
-.header-item:hover .header-item-icon,
-.header-item:focus .header-item-icon,
-.header-item:active .header-item-icon {
+.header-link:hover .header-item-icon,
+.header-link:focus .header-item-icon,
+.header-link:active .header-item-icon {
   fill: var(--accent-color);
 }
 
@@ -484,6 +484,10 @@ body {
   margin-bottom: 30px;
 
   width: 370px;
+}
+
+.project-link {
+  display: block;
 }
 
 .project-link:hover,
